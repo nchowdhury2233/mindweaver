@@ -1,0 +1,11 @@
+.DS_Store
+*/**/.DS_Store
+_Students/
+_Lesson Template/
+_Lessons-backup/
+_Exercises/
+Students/
+Lessons/_template
+Lessons/**/_Presentations
+Lessons/**/_Solutions
+Assignments/**/*
