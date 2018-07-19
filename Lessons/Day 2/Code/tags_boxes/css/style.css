@@ -1,0 +1,26 @@
+h1 {
+  background-color: red;
+  border: solid black 15px;
+  padding: 50px;
+}
+
+p {
+  background-color: blue;
+  border: solid black 10px;
+  color: white;
+  padding: 20px;
+}
+
+code {
+  background-color: #fff;
+  border: solid black 2px;
+  color: black;
+  padding: 2px;
+}
+
+div.content-wrapper {
+  background-color: green;
+  padding: 25px;
+  box-sizing: border-box;
+  width: 500px;
+}
