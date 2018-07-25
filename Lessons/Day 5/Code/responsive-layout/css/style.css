@@ -6,7 +6,7 @@
 }
 
 body {
-  width: 600px;
+  width: 80%;
   margin: 20px auto;
 }
 
@@ -23,7 +23,7 @@ header {
 
 header .logo {
   float: left;
-  width: 50px;
+  width: 5%;
   height: 80px;
   border: solid 1px #000;
 }
@@ -31,6 +31,7 @@ header .logo {
 header nav {
   float: right;
   margin-top: 10px;
+  width: 40%;
 }
 
 header nav ul {
@@ -40,27 +41,28 @@ header nav ul {
 header nav ul li {
   float: right;
   display: block;
-  width: 50px;
+  width: 20%;
   height: 30px;
-  margin-left: 20px;
+  margin-left: 2%;
   border: solid 1px #000;
 }
 
 /* MAIN */
 aside {
   float: left;
-  width: 100px;
+  width: 20%;
   height: 340px;
   border: solid 1px #000;
-  margin-right: 20px;
+  margin-right: 2%;
 }
 
 .right-container {
   float: right;
+  width: 78%;
 }
 
 .full-row {
-  width: 480px;
+  width: 100%;
   height: 100px;
   border: solid 1px #000;
   margin-bottom: 20px;
@@ -72,25 +74,25 @@ aside {
 
 .double-col .left {
   float: left;
-  width: 355px;
+  width: 80%;
   height: 100px;
-  margin-right: 20px;
+  margin-right: 2%;
   border: solid 1px #000;
 }
 
 .double-col .right {
   float: left;
-  width: 105px;
+  width: 18%;
   height: 100px;
   border: solid 1px #000;
 }
 
 .four-col .one-col {
   float: left;
-  width: 105px;
+  width: 23.5%;
   height: 100px;
   border: solid 1px #000;
-  margin-right: 20px;
+  margin-right: 2%;
 }
 
 .four-col .one-col.last {
@@ -103,4 +105,72 @@ footer {
   height: 100px;
   margin-top: 20px;
   border: solid 1px #000;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px)
+{
+  .double-col .left {
+    width: 49%;
+  }
+
+  .double-col .right {
+    width: 49%;
+  }
+
+  .four-col .one-col {
+    width: 49%;
+  }
+
+  .four-col .one-col.first {
+    margin-bottom: 20px;
+  }
+
+  .four-col .one-col.second {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  aside {
+    height: 460px;
+  }
+
+}
+
+@media only screen and (max-width: 767px)
+{
+  aside {
+    width: 100%;
+    height:100px;
+    float: none;
+  }
+
+  .right-container {
+    width: 100%;
+    margin-top: 20px;
+    float: none;
+  }
+
+  .double-col .left {
+    width: 100%;
+    margin-bottom: 20px;
+    float: none;
+    margin-right: 0;
+  }
+
+  .double-col .right {
+    width: 100%;
+    float: none;
+  }
+  .four-col .one-col {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .four-col .one-col.last{
+    margin-bottom: 0px;
+  }
+
+  header nav {
+    /*display: none;*/
+    visibility: hidden;
+  }
 }
