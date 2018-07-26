@@ -10,8 +10,8 @@ In the `Lessons` folder you'll find all the slides, code and resources shared in
 
 - Slides: Presentation from class
 - Resources: Any links or files shared during class
-- Code: Starter code for in-class exerises or homework
+- Code: Starter code for in-class exercises or homework
 
 ### Communication
 
-- During class we will be hanging out in the #mindweaver-students slack channel. 
+- During class we will be hanging out in the #mindweaver-students slack channel.
