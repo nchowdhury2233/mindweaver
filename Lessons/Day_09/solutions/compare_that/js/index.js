@@ -1,20 +1,22 @@
-
 function compare() {
+  // variable comparison
   var comparison;
+  // get value of a
   var a = $('#a').val();
+  a = parseFloat(a);
+  // get value of b
   var b = $('#b').val();
- 
-  if (a < b) {
-    comparison = '<';
-  } else if (a > b) {
-    comparison = '>';
+  b = parseFloat(b);
+  // if a > b
+  if (a > b) {
+    $('#comparison').html('>');
+  } else if (a < b) {
+    $('#comparison').html('<');
   } else if (a === b) {
-    comparison = '===';
-  } else{
-    comparison = 'N/A';
+    $('#comparison').html('===');
+  } else {
+    $('#comparison').html('???');
   }
-  
- $('#comparison').html(comparison);
 }
 
 $('#submit').click(compare);
