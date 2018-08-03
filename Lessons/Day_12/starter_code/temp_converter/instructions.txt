@@ -3,3 +3,13 @@ As a class, write feature requirements necessary to create a fully functional ap
 In groups of four write pseudo code for the application.
 
 In pairs write the code to convert Celsius into Fahrenheit, and display the result in the browser.
+
+Can enter temperature
+Two boxes
+
+As a user I can convert a celcius temp to fareneit
+I can input a temp into a form
+and when I click a button I see the convered temp
+
+// Need to know
+Conversion formula

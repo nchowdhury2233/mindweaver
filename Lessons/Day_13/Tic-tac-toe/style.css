@@ -1,0 +1,14 @@
+.parent {
+	width: 400px;
+	height: 400px;
+	/*border: solid black;*/
+	display: flex;
+	flex-wrap: wrap;
+	background-color: black;
+}
+
+.child {
+	height:32.8%; 
+	width: 32.8%;
+	border: 1px solid white;
+}
