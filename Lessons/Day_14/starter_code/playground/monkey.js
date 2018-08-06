@@ -5,7 +5,7 @@
 * foodsEaten
 
 And the following methods:
-* eatSomething(thingAsString)
+* eatSomething(foodItem)
 * introduce: producers a string introducing itself, including its name, species, and what it's eaten.
 
 Create 3 monkeys total. Make sure all 3 monkeys have all properties set and methods defined.
@@ -14,3 +14,19 @@ Exercise your monkeys by retrieving their properties and using their methods. Pr
 for retrieving properties (dot notation and brackets).
 
 */
+var monkey1 = {
+	name: "Harambe", 
+	species: "Gorilla",
+	foodsEaten: ["Bananas"],
+	eatSomething: function(foodItem) {
+		this.foodsEaten.push(foodItem);
+	},
+	introduce: function() {
+		return(
+			this.name + " is a " + 
+			this.species + " who has eaten " +
+			this.foodsEaten + ".");
+	}
+
+}
+
